@@ -1,0 +1,36 @@
+.numbers-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1em 4em;
+    text-align: center;
+    gap: 20px;
+    transform: translateX(3%);
+}
+
+.card {
+    padding: 1em;
+    font-family: var(--font-family);
+    text-align: left;
+    width: 80%;
+}
+
+.card h1{
+    color: var(--prominient-font);
+    font-size: 3.75rem;
+    font-weight: 600;
+}
+
+.card-no-bold {
+    color: var(--Secondary-clr-font);
+    text-align: left;
+}
+
+.card-bold {
+    color: var(--principal-clr-font);
+    font-weight: 500;
+    margin: 0.8em 0;
+    font-size: 1.125rem;
+}
+
+
+

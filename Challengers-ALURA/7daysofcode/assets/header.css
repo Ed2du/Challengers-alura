@@ -1,0 +1,49 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 4em;
+    font-family: var(--font-family);
+}
+
+.Logo {
+    display: flex;
+    line-height: 135%;
+    color: #3A404E;
+    font-weight: 500;
+}
+
+
+.Logo-image{
+    margin: 0 1em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--Secondary-clr-font);
+    font-size: 1.125rem;
+}
+
+.header_list {
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-logo {
+    margin-right: 10em;
+}
+
+.header-item, .nav-button {
+    padding: 1em;
+}
+
+.nav_list-buttons {
+    display: flex;
+}
+
+.cadastrar-btn {
+    background: var(--prominient-font);
+    padding: 0.8em 1em;
+    border-radius: 10px;
+    color: var(--background-color);
+}

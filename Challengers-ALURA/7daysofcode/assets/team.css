@@ -1,0 +1,153 @@
+.team {
+    margin: 2em 0 0 0;
+    font-family: var(--font-family);
+}
+
+.team h1, p{
+    margin: 0.6em 0;
+}
+
+.team a {
+    background-color: #8E24240D;
+    color: var(--prominient-font);
+    border-radius: 15px;
+    padding: 0.3em;
+}
+
+.team h1 {
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.team p {
+    color: var(--Secondary-clr-font);
+}
+
+.team img {
+    margin-top: 4em;
+}
+
+.jobs {
+    margin: 3em 25em 0 25em;
+}
+
+.jobs p {
+    text-align: left;
+    font-family: var(--font-family);
+    margin: 0 0 1.2em 0;
+    color: #101828;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.job-item {
+    background-color: transparent;
+    border: 1px solid #66708546;
+    border-radius: 10px;
+    font-family: var(--font-family);
+    padding: 1.5em;
+    margin: 1.5em 0;
+}
+
+.job-item h1 {
+    text-align: left;
+    margin-bottom: 2em;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.job-item div {
+    display: flex;
+    color: var(--Secondary-clr-font);
+    gap: 10px;
+}
+
+.especification-info {
+    color: var(--Secondary-clr-font);
+}
+
+.feedback {
+    font-family: var(--font-family);    
+    margin: 3em 7em 0 7em;
+    padding: 2em 1em;
+    border-radius: 15px;
+    background-color: #C3191908;
+}
+
+.obs {
+    color: var(--prominient-font);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.feedback h1 {
+    font-size: 2.25rem;
+    margin: 1em;
+}
+
+.feedback img {
+    margin-bottom: 0.5em;
+}
+
+.dev-information {
+    color: var(--Secondary-clr-font);
+}
+
+.bold {
+    color: #101828;
+    font-weight: 500;
+}
+
+.sign-in {
+    margin-top: 8em;
+    padding: 4em;
+    font-family: var(--font-family);
+}
+
+.sign-in h1 {
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.sign-in p {
+    font-size: 1.25rem;
+    margin-top: 2em;
+}
+
+.input-space input[type="email"] {
+    padding: 0.5em 1.5em;
+    width: 17em;
+    border: 1px solid var(--Secondary-clr-font);
+    border-radius: 5px;
+}
+
+.input[type="email"]::placeholder {
+    font-family: var(--font-family);
+}
+
+.input-space button {
+    padding: 0.8em 1.5em;
+    border: none;
+    border-radius: 8px;
+    background: var(--prominient-font);
+    color: var(--background-color);
+}
+
+footer {
+    font-family: var(--font-family);
+    color: var(--Secondary-clr-font);
+    padding: 0 0 5em 0;
+    transform: translateY(-10%);
+}
+
+@media screen and (max-width: 1024px) {
+    .jobs {
+        margin: 1.5em 6.1em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    html {
+        width:fit-content;
+    }
+}
